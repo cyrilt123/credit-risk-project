@@ -71,6 +71,7 @@ CREDIT_RISK_PROJECT/
    docker run -p 5000:5000 credit-risk-api
    ```
 4. The API will be available at `http://127.0.0.1:5000`.
+   If the API runs, you may see a 404 error (this is normal since / is not defined). The endpoint /predict will process requests.
 
 ---
 
